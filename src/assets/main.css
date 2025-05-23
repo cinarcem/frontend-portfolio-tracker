@@ -1,0 +1,43 @@
+:root {
+  --font-size: 16px !important; /* Varsayılan değer */
+}
+
+@media (max-width: 4000px) {
+  :root {
+    --font-size: 16px !important;
+  }
+}
+
+@media (max-width: 1800px) {
+  :root {
+    --font-size: 14px !important;
+  }
+}
+
+@media (max-width: 1250px) {
+  :root {
+    --font-size: 12px !important;
+  }
+}
+
+@media (max-width: 650px) {
+  :root {
+    --font-size: 10px !important;
+  }
+}
+
+html {
+  font-size: var(--font-size) !important;
+}
+
+body {
+  font-size: 1rem;
+}
+
+.v-application {
+  font-size: 1rem !important; /* Scale all Vuetify components */
+}
+
+.v-application * {
+  font-size: inherit !important;
+}
