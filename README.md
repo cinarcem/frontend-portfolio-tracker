@@ -1,29 +1,31 @@
-# frontend-portfolio-tracker-vue
+# Portfolio Tracker App Frontend - ReadMe
 
-This template should help get you started developing with Vue 3 in Vite.
+## 🌟 Overview
+The Portfolio Tracker App Frontend is a responsive and user-friendly web application built using modern JavaScript frameworks. It provides an intuitive interface for users to manage and monitor their stock portfolios, track market indices, and interact seamlessly with backend services.
 
-## Recommended IDE Setup
+## 🚀 Key Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### 📊 Portfolio Visualization
+- View current portfolio profit/loss.
+- Tracj stock performance and your transaction history.
 
-## Customize configuration
+### 🔎 Market Watchlist
+- Add stocks and indices to a personalized watchlist for easy tracking.
+- View data for tracked items directly.
+- 
+### 🔐 Authentication & Security
+- Integrated with **Keycloak** for secure user authentication and management.
+- Supports Single Sign-On (SSO) for a seamless login experience.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### 🌈 Modern Design
+- Built with **Vue.js** and **Vuetify**, ensuring a clean, responsive, and modern UI.
+- Offers light and dark theme options for an accessible user experience.
 
-## Project Setup
+### 🛠️ State Management
+- Efficient state management using **Pinia**, ensuring smooth and consistent data flow across the app.
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## 🛠️ Tech Stack
+- **Framework**: Vue.js  
+- **UI Library**: Vuetify  
+- **State Management**: Pinia  
+- **Authentication**: Keycloak  
