@@ -21,69 +21,69 @@ export const useMainStore = defineStore('mainStore', {
     frontendTechStacks: [
       {
         name: 'Vue.js',
-        source: 'src/assets/img/vue-js.svg',
+        source: '/img/vue-js.svg',
       },
       {
         name: 'Vuetify',
-        source: 'src/assets/img/vuetify.svg',
+        source: '/img/vuetify.svg',
       },
       {
         name: 'JavaScript',
-        source: 'src/assets/img/js.png',
+        source: '/img/js.png',
       },
       {
         name: 'Pinia',
-        source: 'src/assets/img/pinia.png',
+        source: '/img/pinia.png',
       },
       {
         name: 'Html',
-        source: 'src/assets/img/html.png',
+        source: '/img/html.png',
       },
       {
         name: 'Css',
-        source: 'src/assets/img/css.png',
+        source: '/img/css.png',
       },
     ],
     backendTechStacks: [
       {
         name: 'Java',
-        source: 'src/assets/img/java.png',
+        source: '/img/java.png',
       },
       {
         name: 'Spring Boot',
-        source: 'src/assets/img/spring-boot.svg',
+        source: '/img/spring-boot.svg',
       },
       {
         name: 'Spring Gateway',
-        source: 'src/assets/img/spring-gateway.png',
+        source: '/img/spring-gateway.png',
       },
       {
         name: 'Eureka Discovery',
-        source: 'src/assets/img/eureka.webp',
+        source: '/img/eureka.webp',
       },
       {
         name: 'Config Server',
-        source: 'src/assets/img/config-server.webp',
+        source: '/img/config-server.webp',
       },
       {
         name: 'PostgreSQL',
-        source: 'src/assets/img/PostgreSQL.svg',
+        source: '/img/PostgreSQL.svg',
       },
       {
         name: 'Keycloak',
-        source: 'src/assets/img/keycloak.svg',
+        source: '/img/keycloak.svg',
       },
       {
         name: 'Docker',
-        source: 'src/assets/img/docker.webp',
+        source: '/img/docker.webp',
       },
       {
         name: 'Swagger',
-        source: 'src/assets/img/swagger.svg',
+        source: '/img/swagger.svg',
       },
       {
         name: 'Restful',
-        source: 'src/assets/img/restful.png',
+        source: '/img/restful.png',
       },
     ],
   }),

@@ -132,7 +132,7 @@
             >
               <v-btn class="d-flex align-center" rounded="xl" :min-width="230">
                 <img
-                  src="../assets/img/swagger.png"
+                  src="/img/swagger.png"
                   alt="icon"
                   class="mr-2"
                   style="width: 2.1rem; height: 1.6rem"
@@ -153,12 +153,12 @@
             <img
               v-if="mainStore.theme === 'light'"
               class="architecture aspect-ratio cover"
-              src="../assets/img/architecture-light.svg"
+              src="/img/architecture-light.svg"
             />
             <img
               v-else
               class="architecture aspect-ratio cover"
-              src="../assets/img/architecture-dark.svg"
+              src="/img/architecture-dark.svg"
             />
           </v-row>
         </v-col>
