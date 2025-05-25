@@ -100,7 +100,7 @@ export const useStocksWatchlistStore = defineStore('stocksWatchlistStore', {
           Object.entries(data.data.content).forEach(([key, value]) => {
             let stock = {
               stockSymbol: value['stockSymbol'],
-              latestValue: formatNumberToLocal(value['latestValue'], 0, 2),
+              latestValue: formatNumberToLocal(value['latestValue'], 2, 2),
               dailyChangePct: formatNumberToLocal(
                 value['dailyChangePct'],
                 2,
