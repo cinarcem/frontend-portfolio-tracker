@@ -4,10 +4,10 @@
     v-model:items-per-page="portfolioStore.itemsPerPage"
     :headers="portfolioStore.filteredHeaders"
     :items="portfolioStore.portfolio.rows"
+    :no-data-text="portfolioStore.tableNoDataText"
     :items-length="portfolioStore.totalElements"
     :loading="portfolioStore.loading"
     @update:options="portfolioStore.reloadPortfolio"
-    :no-data-text="portfolioStore.tableNoDataText"
     :items-per-page-text="''"
     :items-per-page-options="[5, 10, 25, { value: -1, title: 'Tümü' }]"
     :page-text="'{0}-{1} / {2}'"
@@ -53,9 +53,14 @@ const transactionsStore = useTransactionsStore();
 </script>
 
 <style>
+.datatable th {
+  white-space: nowrap;
+}
+
 .portfolio-table th {
   font-weight: 700 !important;
   opacity: 0.7;
+  white-space: nowrap;
 }
 
 .delete-icon-indexes-watchlist {

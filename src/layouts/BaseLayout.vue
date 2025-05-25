@@ -8,7 +8,6 @@
 
       <v-toolbar-title>Portföy Takip</v-toolbar-title>
 
-      <v-spacer></v-spacer>
       <v-btn @click="toggleTheme()" icon="mdi-theme-light-dark"></v-btn>
       <v-btn
         @click="authStore.login()"

@@ -132,10 +132,10 @@
             >
               <v-btn class="d-flex align-center" rounded="xl" :min-width="230">
                 <img
-                  src="../assets/techicons/swagger.png"
+                  src="../assets/img/swagger.png"
                   alt="icon"
                   class="mr-2"
-                  style="width: 2.1rem; height: 1.4rem"
+                  style="width: 2.1rem; height: 1.6rem"
                 />
                 <span class="text-capitalize">Swagger İle İncele</span>
               </v-btn>

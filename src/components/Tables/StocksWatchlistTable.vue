@@ -65,6 +65,7 @@ const stocksWatchlistStore = useStocksWatchlistStore();
 .stocks-watchlist-table th {
   font-weight: 700 !important;
   opacity: 0.7;
+  white-space: nowrap;
 }
 
 .stocks-watchlist-table td,

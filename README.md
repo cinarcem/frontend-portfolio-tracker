@@ -1,29 +1,44 @@
-# frontend-portfolio-tracker-vue
+# Portfolio Tracker App Frontend - ReadMe
 
-This template should help get you started developing with Vue 3 in Vite.
+## 🌟 Overview
 
-## Recommended IDE Setup
+The Portfolio Tracker App Frontend is a responsive and user-friendly web application built using modern JavaScript frameworks. It provides an intuitive interface for users to manage and monitor their stock portfolios, track market indices, and interact seamlessly with backend services.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Key Features
 
-## Customize configuration
+### 📊 Portfolio Visualization
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- View current portfolio profit/loss.
+- Track stock performance and your transaction history.
 
-## Project Setup
+### 🔎 Market Watchlist
 
-```sh
-npm install
-```
+- Add stocks and indices to a personalized watchlist for easy tracking.
+- View data for tracked items directly.
+-
 
-### Compile and Hot-Reload for Development
+### 🔐 Authentication & Security
 
-```sh
-npm run dev
-```
+- Integrated with **Keycloak** for secure user authentication and management.
+- Supports Single Sign-On (SSO) for a seamless login experience.
 
-### Compile and Minify for Production
+### 🌈 Modern Design
 
-```sh
-npm run build
-```
+- Built with **Vue.js** and **Vuetify**, ensuring a clean, responsive, and modern UI.
+- Offers light and dark theme options for an accessible user experience.
+
+### 🛠️ State Management
+
+- Efficient state management using **Pinia**, ensuring smooth and consistent data flow across the app.
+
+## 🛠️ Tech Stack
+
+- **Framework**: Vue.js
+- **UI Library**: Vuetify
+- **State Management**: Pinia
+- **Authentication**: Keycloak
+
+## Important Notice
+
+⚠️ **This Webpage is for demonstration purposes only**  
+It is not intended for commercial or personal use. The project was developed to showcase coding abilities and architectural understanding.

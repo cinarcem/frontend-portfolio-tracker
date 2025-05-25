@@ -21,69 +21,69 @@ export const useMainStore = defineStore('mainStore', {
     frontendTechStacks: [
       {
         name: 'Vue.js',
-        source: 'src/assets/techicons/vue-js.svg',
+        source: 'src/assets/img/vue-js.svg',
       },
       {
         name: 'Vuetify',
-        source: 'src/assets/techicons/vuetify.svg',
+        source: 'src/assets/img/vuetify.svg',
       },
       {
         name: 'JavaScript',
-        source: 'src/assets/techicons/js.png',
+        source: 'src/assets/img/js.png',
       },
       {
         name: 'Pinia',
-        source: 'src/assets/techicons/pinia.png',
+        source: 'src/assets/img/pinia.png',
       },
       {
         name: 'Html',
-        source: 'src/assets/techicons/html.png',
+        source: 'src/assets/img/html.png',
       },
       {
         name: 'Css',
-        source: 'src/assets/techicons/css.png',
+        source: 'src/assets/img/css.png',
       },
     ],
     backendTechStacks: [
       {
         name: 'Java',
-        source: 'src/assets/techicons/java.png',
+        source: 'src/assets/img/java.png',
       },
       {
         name: 'Spring Boot',
-        source: 'src/assets/techicons/spring-boot.svg',
+        source: 'src/assets/img/spring-boot.svg',
       },
       {
         name: 'Spring Gateway',
-        source: 'src/assets/techicons/spring-gateway.png',
+        source: 'src/assets/img/spring-gateway.png',
       },
       {
         name: 'Eureka Discovery',
-        source: 'src/assets/techicons/eureka.webp',
+        source: 'src/assets/img/eureka.webp',
       },
       {
         name: 'Config Server',
-        source: 'src/assets/techicons/config-server.png',
+        source: 'src/assets/img/config-server.webp',
       },
       {
         name: 'PostgreSQL',
-        source: 'src/assets/techicons/PostgreSQL.svg',
+        source: 'src/assets/img/PostgreSQL.svg',
       },
       {
         name: 'Keycloak',
-        source: 'src/assets/techicons/keycloak.svg',
+        source: 'src/assets/img/keycloak.svg',
       },
       {
         name: 'Docker',
-        source: 'src/assets/techicons/docker.png',
+        source: 'src/assets/img/docker.webp',
       },
       {
         name: 'Swagger',
-        source: 'src/assets/techicons/swagger.png',
+        source: 'src/assets/img/swagger.svg',
       },
       {
         name: 'Restful',
-        source: 'src/assets/techicons/restful.png',
+        source: 'src/assets/img/restful.png',
       },
     ],
   }),

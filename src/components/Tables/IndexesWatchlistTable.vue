@@ -47,6 +47,7 @@ const indexesWatchlistStore = useIndexesWatchlistStore();
 .indexes-watchlist-table th {
   font-weight: 700 !important;
   opacity: 0.7;
+  white-space: nowrap;
 }
 .indexes-watchlist-table td,
 v-chip__content {
