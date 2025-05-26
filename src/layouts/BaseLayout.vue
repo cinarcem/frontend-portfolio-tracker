@@ -2,13 +2,18 @@
   <v-layout>
     <v-app-bar prominent>
       <v-app-bar-nav-icon
+        class="text-h5"
         variant="text"
         @click.stop="menuStore.drawer = !menuStore.drawer"
       ></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Portföy Takip</v-toolbar-title>
+      <v-toolbar-title class="text-h5">Portföy Takip</v-toolbar-title>
 
-      <v-btn @click="toggleTheme()" icon="mdi-theme-light-dark"></v-btn>
+      <v-btn
+        class="text-h6"
+        @click="toggleTheme()"
+        icon="mdi-theme-light-dark"
+      ></v-btn>
       <v-btn
         @click="authStore.login()"
         v-if="!authStore.authenticated"
@@ -29,10 +34,11 @@
 
     <v-navigation-drawer
       v-model="menuStore.drawer"
+      @click="menuStore.drawer = false"
       :location="$vuetify.display.smAndDown ? 'bottom' : undefined"
       temporary
     >
-      <v-list>
+      <v-list class="text-h6">
         <v-list-item
           v-for="item in menuStore.items"
           :key="item.value"

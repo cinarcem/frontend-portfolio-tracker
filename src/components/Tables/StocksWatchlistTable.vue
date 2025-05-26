@@ -68,11 +68,6 @@ const stocksWatchlistStore = useStocksWatchlistStore();
   white-space: nowrap;
 }
 
-.stocks-watchlist-table td,
-v-chip__content {
-  font-size: 0.875em;
-}
-
 .delete-icon-stocks-watchlist {
   opacity: 0.9;
 }

@@ -1,7 +1,9 @@
 <template>
   <v-card class="px-4 py-2 mx-2 mb-4" elevation="8">
     <v-tabs align-tabs="center">
-      <div class="d-flex pl-4 align-center text-capitalize">Hisseler</div>
+      <div class="d-flex pl-4 align-center text-capitalize text-h6">
+        Hisseler
+      </div>
       <v-spacer></v-spacer>
       <div class="d-flex align-center mb-2">
         <div class="mx-2">

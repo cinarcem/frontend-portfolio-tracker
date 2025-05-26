@@ -49,10 +49,6 @@ const indexesWatchlistStore = useIndexesWatchlistStore();
   opacity: 0.7;
   white-space: nowrap;
 }
-.indexes-watchlist-table td,
-v-chip__content {
-  font-size: 0.875em;
-}
 .delete-icon-indexes-watchlist {
   opacity: 0.9;
 }

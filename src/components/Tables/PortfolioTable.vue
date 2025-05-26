@@ -1,6 +1,7 @@
 <template>
   <v-data-table-server
     class="portfolio-table"
+    density="compact"
     v-model:items-per-page="portfolioStore.itemsPerPage"
     :headers="portfolioStore.filteredHeaders"
     :items="portfolioStore.portfolio.rows"

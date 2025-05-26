@@ -4,13 +4,13 @@
       <v-tab
         value="portfolio"
         @click="portfolioStore.getUserPortfolio()"
-        class="text-capitalize"
+        class="text-capitalize text-h6"
         >Portföyüm</v-tab
       >
       <v-tab
         value="transactions"
         @click="transactionsStore.getUserTransactions()"
-        class="text-capitalize"
+        class="text-capitalize text-h6"
         >İşlemlerim</v-tab
       >
 

@@ -1,12 +1,14 @@
 <template>
   <base-layout>
-    <v-container v-if="display.width.value > 1800" fluid>
+    <v-container class="main-container" v-if="display.width.value > 1483" fluid>
       <v-row no-gutters justify="center">
-        <v-col class="watchlist" cols="2"
+        <v-col class="watchlist pa-0 ma-0"
           ><IndexesWatchlist class="watchlist__indexes"></IndexesWatchlist
         ></v-col>
-        <v-col class="portfolio"><Portfolio></Portfolio></v-col>
-        <v-col class="watchlist" cols="2"
+        <v-col class="portfolio pa-0 ma-0" cols="7"
+          ><Portfolio></Portfolio
+        ></v-col>
+        <v-col class="watchlist pa-0 ma-0"
           ><StocksWatchlist></StocksWatchlist
         ></v-col>
       </v-row>
@@ -16,7 +18,7 @@
         <v-col>
           <Portfolio></Portfolio>
         </v-col>
-        <v-col class="watchlist" cols="2">
+        <v-col class="watchlist" cols="3">
           <IndexesWatchlist></IndexesWatchlist>
           <StocksWatchlist></StocksWatchlist>
         </v-col>
@@ -82,11 +84,7 @@ const display = useDisplay();
 </script>
 
 <style>
-.portfolio {
-  max-width: 1200px !important;
-}
-
-.watchlist {
-  min-width: 360px !important;
+.main-container {
+  max-width: 1600px !important;
 }
 </style>

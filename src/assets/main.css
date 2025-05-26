@@ -1,12 +1,12 @@
 :root {
-  --font-size: 16px !important; /* Varsayılan değer */
+  --font-size: 12px !important;
 }
 
-@media (max-width: 4000px) {
+/* @media (max-width: 4000px) {
   :root {
-    --font-size: 16px !important;
+    --font-size: 12px !important;
   }
-}
+} */
 
 @media (max-width: 913px) {
   .v-data-table-rows-no-data td {
@@ -17,9 +17,6 @@
 }
 
 @media (max-width: 570px) {
-  :root {
-    --font-size: 14px !important;
-  }
   .v-data-table-rows-no-data td {
     padding-left: 25vw !important;
     text-align: left !important;
