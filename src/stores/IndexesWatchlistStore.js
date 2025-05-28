@@ -276,7 +276,7 @@ export const useIndexesWatchlistStore = defineStore('indexesWatchlistStore', {
       const formattedValue = dailyChangePct.replace(',', '.');
       if (formattedValue > 0) return 'success';
       else if (formattedValue < 0) return 'error';
-      else return 'black';
+      else return '#78909C';
     },
   },
   getters: {
